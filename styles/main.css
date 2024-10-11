@@ -28,14 +28,19 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  font-family: 'Outfit';
+  font-family: "Lato";
 }
 
 .header__button_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem;
   flex-grow: 1;
+  height: inherit;
 }
 
-.header__button_list a {
+.header__button_list {
   color: black;
   font-weight: 300;
   margin: 0;
@@ -43,29 +48,31 @@ a {
   text-transform: uppercase;
 }
 
-.header__button-name a {
+.header__button-name {
   font-size: 2rem;
   font-weight: 100;
 }
 
-.header__button-bangkok a {
+.header__button-bangkok {
   font-size: 4rem;
   font-weight: 500;
 }
 
-.header__button-stockholm a {
+.header__button-stockholm  {
   font-size: 6rem;
   font-weight: 200;
 }
 
-.header__button-stuff a{
+.header__button-stuff {
   font-weight: 100;
   font-size: 6rem;
+  font-style: italic;
   text-transform: lowercase;
 }
 
-.header__button-contact a {
-  font-size: 2rem;
+.header__button-contact {
+font-size: 3rem;
+text-align: end;
 }
 
 /* header sticky nav bar */
