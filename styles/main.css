@@ -73,12 +73,14 @@ a {
 .header__button-contact {
 font-size: 3rem;
 text-align: end;
+text-decoration: underline;
 }
 
 /* header sticky nav bar */
 #header__nav-sticky {
   position: fixed;
   z-index: 1000;
-  background-color: #f9f7f3;
+  background-color: white;
+  border: 1px solid black;
   right: 0;
 }
