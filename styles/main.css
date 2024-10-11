@@ -72,8 +72,10 @@ a {
 
 .header__button-contact {
 font-size: 3rem;
-text-align: end;
-text-decoration: underline;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 0.5rem;
 }
 
 /* header sticky nav bar */
