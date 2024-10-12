@@ -273,8 +273,43 @@ a {
 
 /* Footer */
 footer {
-  background-color: #333;
-  text-align: center;
+  color: #fefae0;
+  border-color: #fefae0;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+
+.footer__top {
+  height: 20%;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  border-bottom: 1px solid;
+}
+
+.footer__top-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-right: 1px solid;
+}
+
+.footer__top-info-column {
+  display: grid;
+}
+
+.footer__middle {
+  height: 20%;
+}
+
+.footer_bottom {
+  background-color: black;
+  height: 60%;
+}
+
+.footer__bottom_text {
+  font-size: 100%;
 }
 
 /* MEDIA QUERIES 💻 */
