@@ -271,7 +271,7 @@ a {
   backface-visibility: hidden;
 }
 
-/* Footer */
+/* Footer Top */
 footer {
   color: #fefae0;
   border-color: #fefae0;
@@ -299,17 +299,54 @@ footer {
   display: grid;
 }
 
+/* Footer Middle */
 .footer__middle {
   height: 20%;
 }
 
-.footer_bottom {
-  background-color: black;
-  height: 60%;
+/* Footer Bottom */
+.footer__bottom-flex {
+  display: flex;
 }
 
 .footer__bottom_text {
   font-size: 100%;
+  text-transform: uppercase;
+}
+
+.footer__bottom {
+  height: 60%;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.footer__bottom-flex {
+  display: flex;
+}
+
+.footer__bottom_text {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 10px 15px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marqeeLeft;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  font-size: 10rem;
+}
+
+@keyframes marqeeLeft{
+  from {
+    transform: translateX(0);
+  }
+  
+  to {
+    transform: translateX(-10%);
+  }
 }
 
 /* MEDIA QUERIES 💻 */
