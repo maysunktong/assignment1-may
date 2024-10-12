@@ -266,7 +266,7 @@ a {
 
 .gallery__card-wrapper {
   width: 100%;
-  height: 100%;
+  height: 50vh;
   display: block;
   backface-visibility: hidden;
 }
