@@ -206,11 +206,15 @@ a {
 }
 
 /* Article Bangkok */
+.article__bangkok {
+  width: 100%;
+}
+
 .article__gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  height: 100vh; 
+  height: 100%;
 }
 
 .gallery__container {
@@ -251,19 +255,27 @@ a {
   transform: translate(-50%, -50%);
   text-align: center;
   display: grid;
+  font-size: medium;
 }
 
 .gallery__card-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.gallery__card-wrapper {
+  width: 100%;
+  height: auto;
   display: block;
   backface-visibility: hidden;
 }
 
 /* Footer */
 footer {
-  min-height: 100vh;
+  background-color: #333;
+  color: white;
+  text-align: center;
 }
 
 /* MEDIA QUERIES 💻 */
