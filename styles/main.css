@@ -152,6 +152,11 @@ article {
   background-color: black;
   color: white;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.article__header p {
   letter-spacing: 1rem;
 }
 
