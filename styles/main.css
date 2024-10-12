@@ -266,7 +266,7 @@ a {
 
 .gallery__card-wrapper {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   backface-visibility: hidden;
 }
@@ -274,7 +274,6 @@ a {
 /* Footer */
 footer {
   background-color: #333;
-  color: white;
   text-align: center;
 }
 
