@@ -51,13 +51,24 @@ a {
   text-transform: uppercase;
 }
 
+.header__button_list-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  text-transform: lowercase;
+}
+
 .header__button-name {
-  font-size: xx-large;
-  font-weight: 100;
+  font-size: medium;
+  font-weight: 600;
+  padding-bottom: 2rem;
 }
 
 .header__button-bangkok {
-  font-size: medium;
+  font-size: 3rem;
   font-weight: 500;
 }
 
@@ -67,10 +78,14 @@ a {
 }
 
 .header__button-stuff {
-  font-weight: 100;
+  font-weight: 300;
   font-style: italic;
   text-transform: lowercase;
   font-size: 3rem;
+}
+
+.header__button-connect {
+  padding-top: 2rem;
 }
 
 .header__button-contact {
@@ -98,8 +113,12 @@ a {
   font-size: 1.2rem;
 }
 
-.header__nav-item-arrow {
+.header__nav-item {
   width: 100%;
+  font-style: italic;
+}
+
+.header__nav-item-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,6 +161,7 @@ article {
 
 .article__block span {
   padding: 1rem;
+  font-size: medium;
 }
 
 .reverse {
@@ -154,4 +174,9 @@ article {
 
 .article__header-link {
   color: white;
+}
+
+/* Footer */
+footer {
+  min-height: 100vh;
 }
