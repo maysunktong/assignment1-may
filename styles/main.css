@@ -310,6 +310,9 @@ footer {
   text-transform: uppercase;
   background-color: black;
   color: #fefae0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .footer__bottom-flex-eng, .footer__bottom-flex-swe, .footer__bottom-flex-th{
@@ -322,6 +325,7 @@ footer {
 
 .footer__bottom-flex-swe {
   font-size: 10rem;
+  color: tomato;
 }
 
 .footer__bottom-flex-th {
