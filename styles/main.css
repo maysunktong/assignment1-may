@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #EAEAE1;
@@ -30,7 +30,6 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  font-family: "Lato";
 }
 
 .header__button_container {
