@@ -273,58 +273,59 @@ a {
 
 /* Footer Top */
 footer {
-  color: #fefae0;
-  border-color: #fefae0;
-  background-color: black;
+  color: black;
+  border-color: black;
+  background-color: #fefae0;
   width: 100%;
   height: 100vh;
 }
 
 .footer__top {
   height: 20%;
-  display: grid;
-  grid-template-columns: 5fr 1fr;
-  border-bottom: 1px solid;
-}
-
-.footer__top-info {
-  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.footer__top-info-head {
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 
 .footer__top-info-column {
-  display: grid;
-}
-
-/* Footer Middle */
-.footer__middle {
-  height: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Footer Bottom */
-.footer__bottom-flex {
-  display: flex;
-}
-
-.footer__bottom_text {
-  font-size: 100%;
-  text-transform: uppercase;
-}
-
 .footer__bottom {
-  height: 60%;
+  height: 80%;
   overflow: hidden;
   font-weight: 600;
-  font-size: 34px;
   text-transform: uppercase;
+  background-color: black;
+  color: #fefae0;
 }
 
-.footer__bottom-flex {
+.footer__bottom-flex-eng, .footer__bottom-flex-swe, .footer__bottom-flex-th{
   display: flex;
 }
+
+.footer__bottom-flex-eng {
+  font-size: 5rem;
+}
+
+.footer__bottom-flex-swe {
+  font-size: 10rem;
+}
+
+.footer__bottom-flex-th {
+  font-size: 5rem;
+}
+
 
 .footer__bottom_text {
   flex-shrink: 0;
@@ -336,7 +337,6 @@ footer {
   animation-duration: 10s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  font-size: 10rem;
 }
 
 @keyframes marqeeLeft{
