@@ -373,12 +373,14 @@ footer {
 
 /* Tablet (General iPad Size) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  /* Styles for tablets */
+   /* Article Bangkok */
+  .gallery__card-wrapper {
+    height: 200px;
+  }
 }
 
 /* Small Mobile */
 @media only screen and (max-width: 480px) {
-  /* Styles for small mobile devices */
   .article__block_container {
     width: 100%;
   }
@@ -387,6 +389,13 @@ footer {
   }
   .article__block_image_container {
     height: 300px;
+  }
+  /* Article Bangkok */
+  .article__gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery__card-wrapper {
+    height: 200px;
   }
   /* footer */
   .footer__top {
@@ -398,5 +407,4 @@ footer {
   .footer__top-info-column {
     padding: 0.5rem;
   }
-
 }
