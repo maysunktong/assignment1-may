@@ -374,9 +374,6 @@ footer {
 /* Tablet (General iPad Size) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
    /* Article Bangkok */
-  .gallery__card-wrapper {
-    height: 200px;
-  }
 }
 
 /* Small Mobile */
@@ -393,9 +390,6 @@ footer {
   /* Article Bangkok */
   .article__gallery {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .gallery__card-wrapper {
-    height: 200px;
   }
   /* footer */
   .footer__top {
