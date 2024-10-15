@@ -59,3 +59,29 @@ body {
 .item-img {
   width: 30px;
 }
+
+/* Home button */
+.contact__home-button a {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  gap: 0.5rem;
+}
+
+.contact__form-header span {
+  display: grid;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.contact__form-item {
+  display: grid;
+}
+
+.contact__form-item input {
+  border: none;
+  border-bottom: 1px solid;
+  background-color: transparent;
+}
