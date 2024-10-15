@@ -9,9 +9,9 @@ html {
 }
 
 body {
+  max-height: 100vh;
   margin: 0;
   padding: 2rem;
-  height: 100vh;
   font-family: "Lato", sans-serif;
   background-color: #EAEAE1;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23FDFEEB' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
@@ -36,8 +36,8 @@ button {
 }
 
 .contact__form {
-  padding: 2rem;
   background-color: beige;
+  padding: 1rem;
 }
 
 .contact__wrapper {
@@ -49,7 +49,7 @@ button {
 }
 
 .contact__form-wrapper {
-  max-width: 80%;
+  width: 80%;
 }
 
 .contact__form-header {
@@ -119,4 +119,27 @@ button {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+
+/* Media queries */
+@media only screen and (max-width: 480px) {
+  .contact__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contact__form-wrapper {
+    width: 100%;
+    font-size: small;
+  }
+  .contact__form-header {
+    font-size: x-large;
+  }
+  .contact__form-header .contact__form-sub-header {
+    font-size: medium;
+  }
+  .contact__left {
+    gap: 1rem;
+    font-size: small;
+  }
 }

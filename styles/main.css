@@ -366,16 +366,6 @@ footer {
 }
 
 /* MEDIA QUERIES 💻 */
-/* Desktop (Large Screens) */
-@media only screen and (min-width: 1200px) {
-  /* Styles for desktop */
-}
-
-/* Tablet (General iPad Size) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-   /* Article Bangkok */
-}
-
 /* Small Mobile */
 @media only screen and (max-width: 480px) {
   .article__block_container {
