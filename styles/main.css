@@ -89,7 +89,7 @@ a {
   padding-top: 2rem;
 }
 
-.header__button-contact {
+.header__button-contact a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
