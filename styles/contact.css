@@ -19,10 +19,20 @@ body {
 
 fieldset {
   border: none;
+  cursor: pointer;
 }
 
 label {
   padding: 1rem 0;
+  font-weight: 500;
+}
+
+button {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: darkkhaki;
+  border: none;
+  color: white;
 }
 
 .contact__form {
@@ -36,6 +46,21 @@ label {
   display: grid;
   grid-template-columns: 1fr 3fr;
   border: 1px solid;
+}
+
+.contact__form-wrapper {
+  max-width: 80%;
+}
+
+.contact__form-header {
+  display: grid;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.contact__form-header .contact__form-sub-header {
+  font-weight: 400;
+  font-size: medium;
 }
 
 .contact__left {
@@ -68,15 +93,6 @@ label {
 .item-img {
   width: 30px;
 }
-.contact__form-header {
-padding-top: 2rem;
-}
-
-.contact__form-header span {
-  display: grid;
-  font-size: xx-large;
-  font-weight: 800;
-}
 
 .contact__form-item {
   display: grid;
@@ -96,4 +112,11 @@ padding-top: 2rem;
   text-decoration: none;
   color: black;
   gap: 0.5rem;
+}
+
+/* Input box */
+.input-box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
