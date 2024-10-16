@@ -13,6 +13,7 @@ html {
 }
 
 .navbar-container {
+  font-family: "Lato", sans-serif;
   position: sticky;
   top: 0;
 }
