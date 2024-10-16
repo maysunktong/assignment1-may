@@ -118,6 +118,10 @@ a {
   font-style: italic;
 }
 
+.header__nav-item a:hover {
+  color: darkgray;
+}
+
 .header__nav-item-icon {
   display: flex;
   justify-content: center;
