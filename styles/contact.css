@@ -60,6 +60,7 @@ button {
 .contact__form-header .contact__form-sub-header {
   font-weight: 400;
   font-size: medium;
+  color: darkgray;
 }
 
 .contact__left {
