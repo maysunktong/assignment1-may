@@ -27,6 +27,7 @@ body {
   background-color: darkkhaki;
   border: none;
   color: white;
+  cursor: pointer;
 }
 
 .contact__form {
@@ -98,7 +99,6 @@ body {
 .contact__form-item {
   display: grid;
   border: none;
-  cursor: pointer;
 }
 
 .contact__form-item input {
@@ -113,7 +113,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 
 /* Media queries */
 @media only screen and (max-width: 480px) {
