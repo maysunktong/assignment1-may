@@ -134,7 +134,6 @@ a {
   flex-direction: column;
   min-height: 100vh;
   padding-top: 3rem;
-  margin-bottom: 1rem;
 }
 
 .article__block_container {
@@ -217,6 +216,7 @@ a {
 /* Article Bangkok */
 .article__bangkok {
   width: 100%;
+  padding-top: 3rem;
 }
 
 .article__gallery {
@@ -282,6 +282,7 @@ a {
 
 /* Footer Top */
 footer {
+  padding-top: 3rem;
   color: black;
   border-color: black;
   width: 100%;
@@ -314,7 +315,6 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-  padding: 1rem;
 }
 
 /* Footer Bottom */
