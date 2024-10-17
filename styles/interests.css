@@ -78,7 +78,7 @@ body {
   }
 }
 
-/* style on normal tablet */
+/* Tablet */
 @media (max-width: 1024px) {
   .article__wrapper {
     grid-template-columns: 1fr 1fr;
