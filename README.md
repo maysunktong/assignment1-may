@@ -1,1 +1,2 @@
-![mock photo](https://github.com/user-attachments/assets/6a627115-966b-4199-987e-a451015360c9)
+![mock](https://github.com/user-attachments/assets/c589df34-cdde-45f3-ba53-705ae5af5122)
+Name: Assignment 1 Create a multipaged website
