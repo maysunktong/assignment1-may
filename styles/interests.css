@@ -45,6 +45,11 @@ body {
   object-fit: cover;
   width: 100%;
   border-radius: 8px 8px 0 0;
+  filter: sepia(100%);
+}
+
+.article__image-wrapper .filter-normal {
+  filter: none;
 }
 
 .article__text {
