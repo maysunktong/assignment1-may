@@ -68,8 +68,11 @@ body {
 
 .article__text p {
   margin-bottom: 15px;
-  word-break: break-all;
   color: dimgray;
+}
+
+.article__text blockquote {
+  font-style: italic;
 }
 
 @media (max-width: 768px) {
