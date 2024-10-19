@@ -17,6 +17,7 @@ html {
   position: sticky;
   top: 0;
   height: 3rem;
+  z-index: 1000;
 }
 
 .navbar-container, .navbar {
