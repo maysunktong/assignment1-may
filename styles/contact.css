@@ -35,6 +35,14 @@ body {
   padding: 1rem;
 }
 
+.contact__header {
+  text-align: center;
+}
+
+.contact__header h1 {
+  font-weight: 300;
+}
+
 .contact__container {
   height: 100%;
   display: flex;

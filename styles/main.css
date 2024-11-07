@@ -32,6 +32,11 @@ a {
   height: 100vh;
 }
 
+.header__title_h1 {
+  font-style: italic;
+  font-weight: 300;
+}
+
 .header__button_container {
   width: 100%;
   display: flex;
